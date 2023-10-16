@@ -1,0 +1,105 @@
+@keyframes mudaCor {
+    0%{
+        background-color: black;
+    }
+    10%{
+        background-color: white;
+    }
+    20%{
+        background-color: black;
+    }
+    30%{
+        background-color: black;
+    }
+    40%{
+        background-color: white;
+        width: 300px;
+    }
+    50%{
+        background-color: black;
+    }
+    60%{
+        background-color: white;
+    }
+    70%{
+        background-color: black;
+    }
+    80%{
+        background-color: white;
+        width: 900px;
+    }
+    90%{
+        background-color: black;
+    }
+    100%{
+        background-color: white;
+    }
+    
+}
+@keyframes mudaFundo{
+    0% {
+        background-image: url(../images/camp.jpg);
+        transition: 1s;
+    }
+    50% {
+        background-image: url(../images/street.jpg);
+        transition: 1s;
+    }
+    100%{
+        background-image:  url(../images/florest.jpg);
+        transition: 1s;
+    }
+}
+
+
+/* Fontes */
+@font-face{
+    font-family: Starjedi ;
+    src: url(../fonts/starjedi/Starjedi.ttf)
+}
+@font-face{
+    font-family: corleone;
+    src: url(../fonts/corleone/Corleone.TTF);
+    font-weight: normal;
+/* tipos de arquivo de fonte: otf, ttf */
+}
+
+h3{
+    font-family: Starjedi ;
+}
+h1{
+    font-family: corleone
+    ;
+}
+
+
+* {
+    margin: 0%;
+    padding: 0%;
+   
+    
+}
+body{
+    text-align: center;
+}
+
+#caixaCor{
+    width: 500px;
+    height: 500px;
+    background-color: aqua;
+    animation-name: mudaCor;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-delay: 3s;
+}
+
+#caixaImagem{
+    width: 500px;
+    height: 500px;
+    background-image: url(../images/florest.jpg);
+    background-size: cover ;
+    background-position: right;
+    animation: mudaFundo 3s infinite;
+
+
+}
