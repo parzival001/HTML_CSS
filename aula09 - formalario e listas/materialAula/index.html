@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/geral.css">
+    <title>Aula 09 - Formulários</title>
+</head>
+<body>
+   
+    <h1>Cadastro</h1>
+    <form action="cadastrar.php" method="post">
+    <label for="nome" riquired >Nome</label>
+    <input type="text" id="nome" required ="Nome Completo" name="">
+    <label for="email">Email</label>
+    <input type="email" id="email" placeholder="email">
+    <label for="senha" >Senha</label>
+    <input type="password" id="senha" disabled placeholder="senha">
+    <label for="idade">Digite sua Idade</label>
+    <input type="number" step="1" min="1" max="100" id="idade" placeholder="Idade">
+    <label for="data">Digite sua Idade</label>
+    <input type="date" id="data"  placeholder="data">
+    <legend>Qual o seu sexo</legend>
+    <fieldset>
+    Homem <input type="radio" name="sexo" value="homem">
+    Mulher <input type="radio" name="sexo" value="mulher" >
+    Outro <input type="radio" name="sexo" value="outro" >
+    </fieldset>
+    <!-- Selec vária opções -->
+    <select id="">
+        <option value="Destrito Federal">Destrito Federal</option>
+        <option value="Minas">Minas</option>
+        <option value="Acre">Acre</option>
+        <option value="Rio de Janeiro">Rio de Janeiro</option>
+        <option value="Bahia">Bahia</option>
+    </select>
+    
+    <textarea id="" cols="20" rows="10"></textarea>
+    <button type="submit">Cadastrar</button>
+
+</form>
+</body>
+</html>
