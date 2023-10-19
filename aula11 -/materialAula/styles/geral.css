@@ -1,0 +1,49 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+table{
+    border-collapse: collapse;
+    height: 400px;
+    width: 400px;
+    
+}
+th{
+    background-color: aqua;
+}
+th, td{
+    border: 2px solid black;   
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+td{
+    background-color: blueviolet;
+}
+th:empty{
+    border: none;
+    background-color: transparent;
+}
+th:hover{
+    background-color: royalblue;
+}
+th:active, td:active{
+    background-color: rgb(195, 166, 223);
+    color: transparent;
+    border: 2px solid purple;
+}
+#tabelaAlunos{
+    width: 500px;
+    height: auto;
+}
+
+#tabelaAlunos td, #tabelaAlunos th{
+    height: 40px;
+}
+#scroll{
+    width: 30px;
+    height: 3000px;
+}
+thead{
+    position: sticky;
+    top: 0px;
+}

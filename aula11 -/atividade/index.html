@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style/geral.css">
+</head>
+<body>
+    <img src="image/salario-familia.jpg" alt="">
+<form action="cadastrar.php">
+<label for="empregado"></label>
+<input type="text" id="empregado" placeholder="empregado">
+<label for=""></label>
+<input type="number" id="filhos" placeholder="Quantidade de Filhos Menores de 14 ou Inválidos">
+<label for=""></label>
+<input type="number" id="salario" placeholder="Salário Contribuição">
+
+        <table id="tabela">
+           
+            <tr>
+             
+              <td>Salário Contribuição</td>
+              <td>Cota do Salário Família</td>
+            
+            </tr>
+            <tr>
+             
+              <td>Até R$806,80</td>
+              <td>R$ 41,37 por filho</td>
+             
+            </tr>
+            <tr>
+                
+                <td>Entre R$806,81 e R$1.212,64</td>
+                <td>R$29,16 por filho</td>
+              </tr>
+              <tr>
+               
+                <td>Mais de R$1.212,64</td>
+                <td>não há</td>
+              </tr>
+    </table>
+    <button type="submit">Calcular</button>
+</form>
+</body>
+</html>
