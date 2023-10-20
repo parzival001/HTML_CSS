@@ -1,0 +1,37 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.listas{
+    width: 500px;
+    padding: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#filmes{
+    background-color: purple;
+
+}
+
+#serie{
+    background-color:aqua ;
+}
+
+
+#personagem{
+    background-color: blue;
+    color: aliceblue;
+}
+#jogos{
+    background-color: aquamarine;
+}
+#sumario{
+
+    background-color: darkblue;
+    color: aliceblue;
+}
+body{
+    display: flax;
+    align-items: center;
+    direction: center;
+}
